@@ -1,0 +1,13 @@
+name: tutorial-game
+version: 0.1.0
+
+authors:
+  - Joel <joel@neutrinographics.com>
+
+targets:
+  tutorial-game:
+    main: src/tutorial-game.cr
+
+crystal: 0.34.0
+
+license: MIT
