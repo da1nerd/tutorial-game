@@ -1,6 +1,12 @@
 # tutorial-game
 
-TODO: Write a description here
+This is my playground while I work through some tutorials on building a 3d game engine. The actual game engine is [Prism](https://github.com/neutrinog/prism/).
+
+## Sample
+
+> NOTE: this was recorded at 5fps, but runs at 60fps.
+
+![Peek 2020-04-29 09-53](https://user-images.githubusercontent.com/166412/80556931-6dcc6900-89ff-11ea-8c78-b7dd11345d30.gif)
 
 ## Installation
 
