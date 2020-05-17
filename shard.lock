@@ -1,0 +1,50 @@
+version: 1.0
+shards:
+  annotation:
+    github: grottopress/annotation.cr
+    version: 0.4.0
+
+  baked_file_system:
+    github: schovi/baked_file_system
+    version: 0.9.8
+
+  crash:
+    github: neutrinog/crash
+    version: 0.6.0
+
+  crystglfw:
+    github: neutrinog/CrystGLFW
+    commit: 022b7e1bd6afe16507b66dbe50377d3bcd9d5f01
+
+  event_handler:
+    github: crystallabs/event_handler
+    version: 0.15.2
+
+  lib_gl:
+    github: calebuharrison/LibGL
+    commit: fed2ca7f6cd15efea94458b234c3ca5b0a8ffc5e
+
+  lib_glfw:
+    github: calebuharrison/LibGLFW
+    commit: 4cf7c3774f278d7e044bb30a35b104f5b12fdc53
+
+  matrix:
+    github: Exilor/matrix
+    commit: 4adb7c929f90c53eda224b1ca23cee4f1ee94395
+
+  prism:
+    github: neutrinog/prism
+    commit: 216c7d531e05dcfb2ebb7708f7287d0f010c1816
+
+  render_loop:
+    github: neutrinog/render_loop
+    version: 0.3.0
+
+  stumpy_core:
+    github: stumpycr/stumpy_core
+    version: 1.9.1
+
+  stumpy_png:
+    github: stumpycr/stumpy_png
+    version: 4.5.2
+

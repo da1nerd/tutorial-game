@@ -8,6 +8,11 @@ targets:
   tutorial-game:
     main: src/tutorial-game.cr
 
+dependencies:
+  prism:
+    github: neutrinog/prism
+    branch: lights
+
 crystal: 0.34.0
 
 license: MIT
