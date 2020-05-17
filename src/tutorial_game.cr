@@ -6,4 +6,4 @@ module TutorialGame
   VERSION = "0.1.0"
 end
 
-Prism::Adapter::GLFW.run("Prism Tutorial Game", TutorialGame::Game.new)
+Prism::Context.run("Prism Tutorial Game", TutorialGame::Game.new)
