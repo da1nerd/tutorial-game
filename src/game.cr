@@ -77,13 +77,17 @@ module TutorialGame
     end
 
     def init
+      # set the length of a day to 60 seconds
+      Prism::Clock.day_length = 30
+
       skybox = Crash::Entity.new
+      Prism::Clock.set_time Prism::Clock.new(hour: 12)
       sky_periods = [
-        Skybox::Period.new(Skybox::Time.new(hour: 5), load_cube_map_texture("day")),
-        Skybox::Period.new(Skybox::Time.new(hour: 17), load_cube_map_texture("night")),
+        Skybox::Period.new(Prism::Clock.new(hour: 5), load_cube_map_texture("day")),
+        Skybox::Period.new(Prism::Clock.new(hour: 17), load_cube_map_texture("night")),
       ]
       skybox.add InputSubscriber.new
-      skybox.add Skybox.new(sky_periods, 30)
+      skybox.add Skybox.new(sky_periods)
       add_entity skybox
 
       # Generate the terrain
